@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+.container{
+    background-color: rgb(16, 102, 27);
+    width: 1080px;
+    margin: 0 auto;
+}
+header{
+
+}
+.profile-pic{
+    height: 100px;
+    padding: 10px;
+    border-radius: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 3%;
+}
+.bio{
+    float: left;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+h1:hover{
+    color: #000;
+}
+.contact{
+    float: right;
+    padding: 30px;
+    margin-right: 3%;
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.contact a:hover{
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    font-size: 1.1rem;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border-bottom: 8px solid rgb(0, 0, 0);
+    width: 1000px;
+    margin: auto;
+}
+.middle{
+    margin-left: 6%;
+    margin-top: 2%;
+    
+}
+.left{
+    width: 27%;
+    float: left;
+    margin-bottom: 30px;
+}
+.right{
+    width: 67%;
+    float: left;
+    margin-bottom: 30px;
+}
+.common-hr{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 1000px;
+}
+table{
+    border: 5px solid black;
+}
+table tr td{
+    border: 2px solid black; 
+    text-align: center;
+    width: 10%;
+}
+li{
+    list-style: square;
+}
+.middle1{
+    display: flex;
+    background-color: black;
+    margin: auto;
+}
+.logo{
+    width: 40%;
+}
+.left1{
+    width: 30%;
+    display: flex;
+    color: white;
+}
+.left1 li{
+    list-style: none;
+    padding: 5% 30%;
+}
+.common-hr1{
+    border-top: 20px solid black;
+    width: 100%;
+}
